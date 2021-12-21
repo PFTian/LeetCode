@@ -19,7 +19,7 @@ class TwuSumSolutionTests {
 
     @Test
     @DisplayName("Example 1: [2,7,11,15] target 9")
-    public void testTwoSumExample1() {
+    void testTwoSumExample1() {
 
         //given
         int[] inputNumbers = new int[]{2, 7, 11, 15};
@@ -36,7 +36,7 @@ class TwuSumSolutionTests {
 
     @Test
     @DisplayName("Example 2: [3, 2, 4] target 6")
-    public void testTwoSumExample2() {
+    void testTwoSumExample2() {
 
         //given
         int[] inputNumbers = new int[]{3, 2, 4};
@@ -53,7 +53,7 @@ class TwuSumSolutionTests {
 
     @Test
     @DisplayName("Example 3: [3,3] target 6")
-    public void testTwoSumExample3() {
+    void testTwoSumExample3() {
 
         //given
         int[] inputNumbers = new int[]{3, 3};
@@ -67,5 +67,6 @@ class TwuSumSolutionTests {
         assertArrayEquals(expectedOutput, actualOutput, "Two sum function returns the correct answer");
 
     }
+
 
 }
